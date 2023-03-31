@@ -1,0 +1,47 @@
+html,
+body{
+	width:100%;
+	height:100%;
+	font-family: 'Playfair Display', serif;
+	background: url(https://i.pinimg.com/564x/2e/e0/c7/2ee0c73e291e6ea0673e4088db3aa122.jpg) no-repeat center center fixed; 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: white;
+}
+
+hr{
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer{
+	height: 50px;
+}
+
+.btn-new{
+	padding:1rem 2rem;
+	color: skyblue;
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: #f7f7f7;
+	border-color: #f7f7f7;
+}
+
+.btn-primary:hover {
+	background-color: hotpink;
+	border-color: pink;
+	border-width: 4px;
+}
